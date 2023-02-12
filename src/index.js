@@ -1,5 +1,5 @@
-import TemplateRender from './templateRender';
+import RenderContainer from './renderContainer';
 
 export {
-  TemplateRender
+  RenderContainer,
 };

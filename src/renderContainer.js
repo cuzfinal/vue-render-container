@@ -1,7 +1,7 @@
 import { h } from 'vue'
 
-const TemplateRender = {
-  name: 'TemplateRender',
+const RenderContainer = {
+  name: 'RenderContainer',
   props: {
     render: {
       type: Function,
@@ -14,4 +14,4 @@ const TemplateRender = {
   },
 }
 
-export default TemplateRender;
+export default RenderContainer;

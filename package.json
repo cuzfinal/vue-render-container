@@ -1,5 +1,5 @@
 {
-  "name": "vue-template-render",
+  "name": "vue-render-container",
   "version": "1.0.0",
   "description": "a vue component that combines render function and template",
   "main": "src/index.js",
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/cuzfinal/vue-template-render.git"
   },
   "keywords": [
-    "template-render"
+    "vue-template", "template-render"
   ],
   "author": "cuzfinal",
   "license": "MIT",
@@ -19,6 +19,9 @@
     "url": "https://github.com/cuzfinal/vue-template-render/issues"
   },
   "homepage": "https://github.com/cuzfinal/vue-template-render#readme",
+  "peerDependencies": {
+    "vue": "^3.0.0-0 || ^2.7.0"
+  },
   "devDependencies": {
     "vue": "^3.2.47"
   }
